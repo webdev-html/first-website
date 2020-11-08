@@ -6,3 +6,12 @@ function navbarcontactpage() {
     document.getElementById("navbaricon").src = "/pictures/navbarx.jpg"
     document.getElementById("return").innerHTML = "back to page"
 }
+
+function navbarhomepage() {
+    document.getElementById("body").style.backgroundColor = "blue"
+    document.getElementById("about").innerHTML = "About me"
+    document.getElementById("section").innerHTML = ""
+    document.getElementById("navbaricon").src = "/pictures/navbarx.jpg"
+    document.getElementById("return").innerHTML = "back to page"
+    document.getElementById("contacts").innerHTML = "contacts and socials"
+}
