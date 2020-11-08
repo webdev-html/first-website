@@ -1,5 +1,5 @@
 function navbarcontactpage() {
-    document.getElementById("body").style.background = "blue";
+    document.getElementById("body").style.background = "lightseagreen";
     document.getElementById("homepage").innerHTML = "Home";
     document.getElementById("about").innerHTML = "About me ";
     document.getElementById("section").innerHTML = ""
@@ -8,7 +8,7 @@ function navbarcontactpage() {
 }
 
 function navbarhomepage() {
-    document.getElementById("body").style.backgroundColor = "blue"
+    document.getElementById("body").style.backgroundColor = "lightseagreen"
     document.getElementById("about").innerHTML = "About me"
     document.getElementById("section").innerHTML = ""
     document.getElementById("navbaricon").src = "/pictures/navbarx.jpg"
@@ -17,7 +17,7 @@ function navbarhomepage() {
 }
 
 function navbaraboutme() {
-    document.getElementById("body").style.backgroundColor = "blue"
+    document.getElementById("body").style.backgroundColor = "lightseagreen"
     document.getElementById("contacts").innerHTML = "contacts and socials"
     document.getElementById("homepage").innerHTML = "Home"
     document.getElementById("about").innerHTML = "back to page"
