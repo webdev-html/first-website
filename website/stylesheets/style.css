@@ -65,8 +65,16 @@ h3 {
 }
 
 #navbaricon {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
+    float: left;
+}
+
+#navbaricon:hover {
+    width: 65px;
+    height: 65px;
+    float: left;
+    cursor: pointer;
 }
 
 
