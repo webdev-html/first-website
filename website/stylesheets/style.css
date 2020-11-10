@@ -15,9 +15,6 @@ h2 {
     text-transform: uppercase;
 }
 
-.navitem {
-    background-color: black;
-}
 
 
 
@@ -57,7 +54,7 @@ a:hover {
 }
 
 #learnmore:hover {
-    color: black;
+    color: rgb(250, 81, 81);
     text-decoration: none;
 }
 h3 {
@@ -65,18 +62,18 @@ h3 {
 }
 
 #navbaricon {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     float: left;
+    
 }
 
 #navbaricon:hover {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     float: left;
     cursor: pointer;
 }
-
 
 @media only screen and(max-width: 1024px) {
     body {
@@ -87,6 +84,7 @@ h3 {
 
    
    
+   
 @media only screen and(max-width: 768px) {
     body {
         color: white;
@@ -94,6 +92,9 @@ h3 {
         font-size: x-large;
     }
 
+    
+
+    
         
    
 

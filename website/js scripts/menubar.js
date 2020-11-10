@@ -5,6 +5,8 @@ function navbarcontactpage() {
     document.getElementById("section").innerHTML = ""
     document.getElementById("return").innerHTML = "back to page"
     document.getElementById("navbaricon").style.cursor = "auto"
+    
+    
 }
 
 function navbarhomepage() {
@@ -14,6 +16,7 @@ function navbarhomepage() {
     document.getElementById("return").innerHTML = "back to page"
     document.getElementById("contacts").innerHTML = "contacts and socials"
     document.getElementById("navbaricon").style.cursor = "auto"
+    
 }
 
 function navbaraboutme() {
@@ -23,5 +26,7 @@ function navbaraboutme() {
     document.getElementById("about").innerHTML = "back to page"
     document.getElementById("section").innerHTML = ""
     document.getElementById("navbaricon").style.cursor = "auto"
+    
 
 }
+
