@@ -30,7 +30,7 @@ h2 {
 #background {
     background-color: black;
     color: rgb(0, 248, 248);
-    height: 1in;
+    height: 0.6in;
     
     
 }  
@@ -81,8 +81,6 @@ h3 {
     
 }
 
-
-   
 @media only screen and (max-width:768px) {
     #laungages-frontend {
         width: 490px;
@@ -102,6 +100,14 @@ h3 {
         float: left;
         cursor: pointer;
     }
+
+    #background {
+        background-color: black;
+        color: rgb(0, 248, 248);
+        height: 1in;
+        
+        
+    }  
 }
    
 
