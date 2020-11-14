@@ -81,6 +81,20 @@ h3 {
     
 }
 
+#about {
+    font-size: 170%;
+}
+#contacts {
+    font-size: 170%;
+}
+
+#homepage {
+    font-size: 170%;
+}
+
+#port {
+    font-size: 170%;
+}
 @media only screen and (max-width:768px) {
     #laungages-frontend {
         width: 490px;
@@ -108,16 +122,31 @@ h3 {
         
         
     }  
+
+    #drawing {
+        width: 480px;
+    }
 }
    
 
 
    
-    
+::-webkit-scrollbar {
+    width: 10px;
+}
 
-    
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+}
         
-   
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 1in;
+    
+}  
 
     
 
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(128, 0, 0);
+}

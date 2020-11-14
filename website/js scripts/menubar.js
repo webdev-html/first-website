@@ -1,6 +1,5 @@
 let imglink = 0
 //animations for menubar and menubar items
-
 function frame() {
     document.getElementById("navbaricon").src = "/pictures/frame2.png"
 }
@@ -14,11 +13,9 @@ function frame3() {
 }
 
 function finalframe() {
-    document.getElementById("navbaricon").src = "/pictures/finalframe.png"
+    document.getElementById("navbaricon").src = "/pictures/x.png"
+    
 }
-
-
-
 //menubar
 function navbarcontactpage() {
     document.getElementById("body").style.background = "lightseagreen";
@@ -68,9 +65,9 @@ function navbarhomepage() {
 function navbaraboutme() {
     document.getElementById("body").style.backgroundColor = "lightseagreen"
     document.getElementById("contacts").innerHTML = "contacts and socials"
-    document.getElementById("about").innerHTML = "back to page"
     document.getElementById("section").innerHTML = ""
     document.getElementById("port").innerHTML = "resume"
+    document.getElementById("homepage").innerHTML = "home"
     
    
     if (imglink === 1) {
@@ -88,13 +85,13 @@ function navbaraboutme() {
 }
 
 function navbarport() {
+    icon = true
     document.getElementById("body").style.backgroundColor = "lightseagreen"
     document.getElementById("contacts").innerHTML = "contacts and socials"
     document.getElementById("homepage").innerHTML = "Home"
     document.getElementById("section").innerHTML = ""
     document.getElementById("about").innerHTML = "about me"
     
-   
   
     if (imglink === 1) {
         document.getElementById("imglink").href = ""
@@ -111,5 +108,12 @@ function navbarport() {
     setTimeout(frame3, 105)
     setTimeout(finalframe, 140)
 
+   
+   
+    
+   
 }
+
+
+
 
