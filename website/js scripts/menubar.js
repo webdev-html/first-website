@@ -140,6 +140,7 @@ function navbarblogpage() {
     document.getElementById("section").innerHTML = ""
     document.getElementById("about").innerHTML = "about me"
     document.getElementById("port").innerHTML = "resume"
+    document.getElementById("returnarticle").innerHTML = "return to blog"
     
   
     if (imglink === 1) {
