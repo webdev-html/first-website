@@ -140,7 +140,7 @@ function navbarblogpage() {
     document.getElementById("section").innerHTML = ""
     document.getElementById("about").innerHTML = "about me"
     document.getElementById("port").innerHTML = "resume"
-    document.getElementById("returnarticle").innerHTML = "return to blog"
+    
     
   
     if (imglink === 1) {
@@ -158,7 +158,7 @@ function navbarblogpage() {
     setTimeout(frame2, 70)
     setTimeout(frame3, 105)
     setTimeout(finalframe, 140)
-
+    document.getElementById("returnarticle").innerHTML = "return to blog"
    
    
     
