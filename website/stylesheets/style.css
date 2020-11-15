@@ -95,6 +95,21 @@ h3 {
 #port {
     font-size: 170%;
 }
+
+#blog {
+    font-size: 170%;
+}
+
+#forwardarrow {
+    width: 70px;
+    height: 70px;
+}
+
+#forwardarrow:hover {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
 @media only screen and (max-width:768px) {
     #laungages-frontend {
         width: 490px;
